@@ -152,7 +152,17 @@
       "description": "Make your bot talk using Intellivoid's chatbot API, get your key from https://coffeehouse.intellivoid.net/",
          "required": false,
          "value": ""
-   },      
+      },   
+      "Bot_username": {
+         "description": "Required for wallpaper. Get your's from https://wall.alphacoders.com/",
+         "required": True,
+         "value": ""
+      },
+      "Bot_Id": {
+         "description": "Required for wallpaper. Get your's from https://wall.alphacoders.com/",
+         "required": True,
+         "value": ""
+      }
       "BAN_STICKER": {
          "description": "ID of the sticker you want to use when banning people.",
          "required": false,
